@@ -1,1 +1,6 @@
 logLevel: debug
+
+ui:
+  color: "#ef7b4d"
+  message: "ArgoCD Multi Sources"
+  logo: "https://cncf-branding.netlify.app/img/projects/argo/horizontal/color/argo-horizontal-color.svg"
