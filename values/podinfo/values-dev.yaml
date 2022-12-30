@@ -1,6 +1,20 @@
-logLevel: debug
-
+logLevel: ENC[AES256_GCM,data:TXMk4sQ=,iv:CfM5hpqcvLQKjP6g1wi2sNFx8xm98QXTPeZpsYw+ALc=,tag:r+M5jhIs6IXabCIiApItJg==,type:str]
 ui:
-  color: "#ef7b4d"
-  message: "ArgoCD Multi Sources"
-  logo: "https://cncf-branding.netlify.app/img/projects/argo/horizontal/color/argo-horizontal-color.svg"
+    color: ENC[AES256_GCM,data:WubhtUPl8w==,iv:U3VXduQs3fMpQqXAjZEd8LuOuf4cfW6f525UdopTCFU=,tag:g6ybd0ROGDfGs8RP/adKtA==,type:str]
+    message: ENC[AES256_GCM,data:zNHywJ80Nz56QxD0Hj80Tn6rpG8=,iv:zhqGWClECOETAxWJRdIuhXlLhTLFCGErfVTacft95mA=,tag:IMpdbWxtCAypOz436hTAvg==,type:str]
+    logo: ENC[AES256_GCM,data:7AZzMLSFI9fehAJPsNgyy7I8BrcRgeay03bq3i8R7LFxmSbLsav7YlzUJtuRZoQQvWcZwzIjOwBjLOEOwvENoAVlPLCO2rDNj8Wx0ASJIWdjIC1xVhh2u2BShSZGkA==,iv:C9x6bM7DSHYDXI8X5Z26xyWt7vjpvnRB32ORF85oaP0=,tag:4lnWg8ytKilTPfwPOidBRA==,type:str]
+sops:
+    kms:
+        - arn: arn:aws:kms:us-east-1:660412058498:key/09d2f3f5-b8c3-43ba-8c6c-7d418e327b6e
+          created_at: "2022-12-30T18:48:47Z"
+          enc: AQICAHiuvtsXdfkE3v8mp1IJTVgB99gEDXjEMLtCzoKc5RKiigGjGLxrKBpckoiEF89AZRKuAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM1MTsW8ayx3IPuwWZAgEQgDvf2fYwSkSNDpF2R4N/h0kcYHQhKcY0pIRWtX5T1BKH9DWV/Yo/neg9+XKdhS50flZg47JN3IgusGa2dQ==
+          aws_profile: default
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age: []
+    lastmodified: "2022-12-30T18:48:48Z"
+    mac: ENC[AES256_GCM,data:YtstDHzw2vFYgLhOzb784r5oaHoGx1vUtXTFTBSJKwCTcUpBIZYyBVJoO78AMy9SKZFa/9i4uuk3hKsoAHC4GyoG8rAciIDAHfpHeYPeDm/ze83I6AiOrZzSDCLf12dRWE+5dT9Mknq4IgnMzgqq8VodLtwXWEo07V30SYT7qkU=,iv:g6PjTA0jkskiblWWbByt/BYytCznmDJIbECZirMleJc=,tag:lew0jJ7ObZDHvze2OrauGw==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.7.3
